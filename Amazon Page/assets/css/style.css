@@ -1,0 +1,203 @@
+/* Your styles here */
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #E9EDEE;
+}
+.paddingNormal {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.whiteText {
+    color: #EAFDFF;
+}
+
+
+/*logo*/
+.backgroundLogo{
+background-color:#222F3F ;
+}
+
+.logo{
+    padding-top:0.2rem ;
+    padding-bottom: 0.3rem;
+    min-width: 1000px;
+    max-width: 100%;
+}
+.logo img{
+    width: 80px;
+}
+/*nav*/
+.inBlock p {
+    display: inline-block;
+}
+.backgroundNav{
+    background-color:#364759 ;
+}
+
+.nav{
+    padding-left: 0.95rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    min-width: 1000px;
+    max-width: 100%;
+}
+.nav p{
+    padding-right: 0.8rem;
+    padding-bottom: 0.1rem;
+    font-size: 12px;
+}
+
+/*giftOrang*/
+.giftOrange{
+    background-color:#F56600 ;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    font-size: 12px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    min-width: 1000px;
+    max-width: 100%;
+}
+/*banner*/
+.banner{
+    min-width: 1000px;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+h1{
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    font-size: 24px;
+    font-weight:bold ;
+}
+.backgroundBanner1{
+    background-image: url(../images/bg-image.png);
+    background-size:100%;
+    background-attachment: fixed ;
+    display: block;
+}
+.banner p{
+padding-bottom: 3rem;
+}
+/*4immagini affiancate
+.conteiner4img{
+    background-color: #FFFFFF;
+    margin: 1px solid #EAEBEC;
+    margin-bottom:2rem ;
+    width: 180px;
+    height: 250px;
+}
+.imgAff{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+   
+    border: 1px solid #dee1e3;
+    margin-bottom: 25px;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    object-fit: contain;
+    
+}
+*/
+
+
+.container {
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    
+    margin-bottom: 2rem;  
+}
+
+.image-container { 
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.image {
+    display: inline-block;   
+    margin: 0 10px;   
+    border: 1px solid #ccc;   
+    padding: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    height: auto;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    
+}
+/*banner2*/
+.banner2 {
+    min-width: 1000px;
+    max-width:100% ;
+    margin-bottom: 0.2rem;
+    box-sizing:border-box;
+}
+.banner2 img{
+    min-width: 1000px;
+    max-width: 100%;
+}
+.bannerElement p{
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    
+}
+.bannerElement a{
+    font-size: 12px;
+margin-left: 2rem;
+text-decoration: none;
+color: #035D6F;
+font-weight: bold;
+}
+.banner3 img {
+    min-width: 1000px;
+    max-width: 100%;
+}
+.bannerElement1 a {
+    font-size: 12px;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #035D6F;
+    font-weight: bold;
+    text-align: left;
+}
+.bannerElement1 p {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 1rem;
+
+}
+.top{
+    text-align: center;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    
+}
+.top a{
+    color: #E9EDEE;
+    font-size: 12px;
+}
+.logo2{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom:3rem ;
+}
+.logo2 img{
+width: 100px;
+}
